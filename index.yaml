@@ -94,4 +94,35 @@ entries:
     urls:
     - https://github.com/luong-komorebi/langfuse-k8s/releases/download/langfuse-0.2.2/langfuse-0.2.2.tgz
     version: 0.2.2
-generated: "2024-07-17T06:25:11.667641532Z"
+  - apiVersion: v2
+    appVersion: "2"
+    created: "2024-07-17T06:30:29.975966801Z"
+    dependencies:
+    - condition: postgresql.deploy
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.x.x
+    description: Open source LLM engineering platform - LLM observability, metrics,
+      evaluations, prompt management.
+    digest: 35bbccf492d9bf5b2db8182d436b2bc8970ac8c23b4a379229027f2161b8111f
+    home: https://langfuse.com/
+    icon: https://langfuse.com/langfuse_logo.png
+    keywords:
+    - langfuse
+    - llm
+    - observability
+    - prompt management
+    - metrics
+    maintainers:
+    - email: contact@langfuse.com
+      name: langfuse
+      url: https://langfuse.com/
+    name: langfuse
+    sources:
+    - https://github.com/langfuse/langfuse
+    - https://github.com/langfuse/langfuse-k8s
+    type: application
+    urls:
+    - https://github.com/luong-komorebi/langfuse-k8s/releases/download/langfuse-0.2.2-fork/langfuse-0.2.2-fork.tgz
+    version: 0.2.2-fork
+generated: "2024-07-17T06:30:29.975987499Z"
