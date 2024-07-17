@@ -1,6 +1,6 @@
 apiVersion: v2
 name: langfuse
-version: 0.2.4-fork
+version: 0.2.2-fork
 description: Open source LLM engineering platform - LLM observability, metrics, evaluations, prompt management.
 type: application
 keywords:
